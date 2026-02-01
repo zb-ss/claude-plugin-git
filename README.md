@@ -4,23 +4,11 @@ Git and GitHub workflow commands using the `gh` CLI.
 
 ## Installation
 
-Add to your Claude Code `settings.json`:
+In Claude Code, run:
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "zb-ss-git": {
-      "source": {
-        "source": "github",
-        "owner": "zb-ss",
-        "repo": "claude-plugin-git"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "git@zb-ss-git": true
-  }
-}
+```
+/plugin marketplace add zb-ss/claude-plugin-git
+/plugin install git@zb-ss-claude-plugin-git
 ```
 
 ## Skills
