@@ -1,5 +1,5 @@
 {
-  "name": "claude-plugin-git",
+  "name": "zb-ss-git",
   "description": "Git and GitHub workflow commands for Claude Code",
   "owner": {
     "name": "zb-ss"

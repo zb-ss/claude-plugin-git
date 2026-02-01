@@ -4,17 +4,22 @@ Git and GitHub workflow commands using the `gh` CLI.
 
 ## Installation
 
-Add to your Claude Code configuration:
-
-```bash
-claude --plugin-dir /path/to/git
-```
-
-Or add to your settings:
+Add to your Claude Code `settings.json`:
 
 ```json
 {
-  "plugins": ["/path/to/git"]
+  "extraKnownMarketplaces": {
+    "zb-ss-git": {
+      "source": {
+        "source": "github",
+        "owner": "zb-ss",
+        "repo": "claude-plugin-git"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "git@zb-ss-git": true
+  }
 }
 ```
 
