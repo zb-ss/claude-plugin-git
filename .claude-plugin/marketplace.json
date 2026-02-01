@@ -1,0 +1,15 @@
+{
+  "name": "claude-plugin-git",
+  "description": "Git and GitHub workflow commands for Claude Code",
+  "owner": {
+    "name": "zb-ss"
+  },
+  "plugins": [
+    {
+      "name": "git",
+      "source": "./",
+      "description": "Git and GitHub workflow commands using gh CLI",
+      "version": "1.0.0"
+    }
+  ]
+}
