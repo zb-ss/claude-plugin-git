@@ -8,8 +8,7 @@
     {
       "name": "git",
       "source": "./",
-      "description": "Git and GitHub workflow commands using gh CLI",
-      "version": "1.0.0"
+      "description": "Git and GitHub workflow commands using gh CLI"
     }
   ]
 }
